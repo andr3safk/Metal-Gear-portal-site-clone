@@ -1,7 +1,22 @@
 ---
-import Welcome from '../components/Welcome.astro';
 import Layout from '../layouts/Layout.astro';
+import Header from '../components/header.astro';
+import Topics from '../components/topics.astro';
+import News from '../components/news.astro';
+import History from '../components/history.astro';
+import Goods from '../components/goods.astro';
+import Archives from '../components/archives.astro';
+import Footer from '../components/footer.astro';
+---
 
 <Layout>
-	
+  <main>
+    <Header/>
+    <Topics/>
+    <News/>
+    <History/>
+    <Goods/>
+    <Archives/>
+    <Footer/>
+  </main>
 </Layout>
